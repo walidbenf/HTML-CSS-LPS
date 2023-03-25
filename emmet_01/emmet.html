@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/emmet.css">
+  <body>
+    <header>
+      <h1>Coder avec Emmet</h1>
+    </header>
+
+    <nav>
+      <a href="#html">HTML</a>
+      <a href="#css">CSS</a>
+    </nav>
+
+    <h1 id="html">HTML</h1>
+    <div><h3>Ajouter un élément enfant: ">"</h3>
+      <code>li>p</code><br>
+      <code>ul>li>p</code>
+      <p>Résultat:</p>
+      <img src ="img/em1.png" alt="Image 01">
+    </div>
+    <div>
+      <h3>Ajouter un frère: "+"</h3>
+      <code>ul>li>p+a</code>
+      <p>Résultat:</p>
+      <img src="img/em2.png" alt= "Image 02">
+    </div>
+    <div>
+        <h3>Multiplier un élément: "*"</h3>
+        <code>ul>li*3>img+p</code>
+        <p>Résultat:</p>
+        <img src="img/em3.png" alt="Image 03">
+        </div>
+        <div>
+          <h3>Ajouter une classe: "."</h3>
+          <code>ul.wrapper</code>
+          <p>Résultat:</p>
+          <img src="img/em4.png" alt="Image 04">
+        </div>
+        <div>
+          <h3>Grouper des éléments multiples: "()"</h3>
+          <code>ul>(header>ul>li*2)+footer</code>
+          <p>Résultat:</p>
+          <img src="img/em5.png" alt="Image 05">
+        </div>
+        <div>
+          <h3>Insérer du texte dans un élément: ""</h3>
+          <code>a{Click me}</code>
+          <p>Résultat:</p>
+            <img src="img/em6.png" alt="Image 06">
+        </div>
+        <div>
+          <h3>Ajouter une numérotation: " $ "</h3>
+          <code>ul>li.item$*5</code>
+          <p>Résultat:</p>
+            <img src="img/em7.png" alt="Image 07">
+        </div>
+        <div>
+          <h3>Commencer la numérotation avec le chiffre voulu: "$@X "</h3>
+          <code>ul>li.item$@3*5</code>
+          <p>Résultat:</p>
+            <img src="img/em8.png" alt="Image 08">
+        </div>
+        <div>
+          <h3>Numérotation dans l'ordre décroissant: " $@- "</h3>
+          <code>ul>li.item$@-{pizza $@-}*5</code>
+          <p>Résultat:</p>
+            <img src="img/em9.png" alt="Image 09">
+        </div>
+        <div>
+          <h3>Remonter d'un élément:: " ^ "</h3>
+          <code>div>p>em{hello}^a</code>
+          <p>Résultat:</p>
+            <img src="img/em10.png" alt="Image 10">
+        </div>
+        <div>
+          <h3>Ajouter un attribut: " [attr_name="valeur"] "</h3>
+          <code>img[src="http://placecage.com/300/300" alt="Image Cage"]</code>
+          <p>Résultat:</p>
+            <img src="img/em11.png" alt="Image 11">
+        </div>
+        <div>
+          <h3>En Bref</h3>
+          <code>div.list>ul>(li.item$>p{paragraphe $}+img[src="http://placecage.com/300/300"])+li.item$@2*4>p{paragraphe $@2}+img[src="http://placesheen/$@1$$/s@5$$]"]+a^^^footer>p{Place cage vs placesheen}</code>
+          <p>Résultat:</p>
+          <img src="img/em12.png" alt="Image 12">
+        </div>
+        <div>
+	<p>Le premier regroupement contient une &ltli> qui a 2 enfants :  &ltp> qui contient du texte et &ltimg> qui a un attribut src</p>
+	<p>Le groupement suivant contient les &ltli> 2 à 5, en multipliant des listes dont les noms de classe, contenu de paragraphe et valeurs d'attributs s'incrémentent selon des syntaxes différentes. Chaque &ltli> contient aussi une ancre, invariable.</p>
+	<p>Enfin les 3 ^^^ permettent de remonter les éléments parents pour placer le &ltfooter> au même niveau que la &ltdiv> (sortir de &ltli> puis &ltul> puis de &ltdiv> pour donner à ce dernier un &ltfooter> "frère").</p>
+</div>
+<h1 id= "css">CSS</h1>
+<div>
+  <p>Quelques raccourcis courants:</p>
+  <img src="img/em13.png" alt="Image 13">
+</div>
+  </body>
+</html>

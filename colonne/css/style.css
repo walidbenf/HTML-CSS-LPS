@@ -1,0 +1,42 @@
+h2 {
+  color: gray;
+}
+.clear {
+  clear:both;
+}
+
+.OH {
+  color:white;
+  background: black;
+  width: 45%;
+  float:left;
+  margin: 10px;
+}
+.OT {
+  color:white;
+  background: black;
+  width: 30%;
+  float:left;
+  margin: 10px;
+}
+.TT {
+  color:white;
+  background: black;
+  width: 60%;
+  float:left;
+  margin: 10px;
+}
+.OQ {
+  color:white;
+  background: black;
+  width: 22.5%;
+  float:left;
+  margin: 10px;
+}
+.TQ {
+  color:white;
+  background: black;
+  width: 45%;
+  float:left;
+  margin: 10px;
+}
