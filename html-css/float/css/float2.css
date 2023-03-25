@@ -1,0 +1,61 @@
+.b1,
+.b2,
+.b3,
+.b4,
+.b4,
+.b5,
+.b6 {
+    height: 10em;
+    width: 10em;
+    float: left;
+    border: 3px solid black;
+    text-align: center;
+    margin: 2px;
+}
+
+.b1 {
+    background-color: green;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.b2 {
+    background-color: lightblue;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.b3 {
+    background-color: lightcyan;
+    border-radius: 50%;
+}
+
+.b4 {
+    background-color: salmon;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 30%;
+}
+
+section div:nth-child(18) {
+    background-color: red;
+}
+
+/*.b5 {
+    background-color: red;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 15%;
+}*/
+
+.b6 {
+    border: none;
+}
+
+.clear {
+    clear: both;
+}

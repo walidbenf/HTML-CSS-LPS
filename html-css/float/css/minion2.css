@@ -1,0 +1,72 @@
+/*body {}*/
+
+section {
+    width: 40%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 2em;
+    height: 2em;
+}
+
+.black {
+    background: black;
+}
+
+.brown {
+    background-color: #312519;
+}
+
+.lbrown {
+    background-color: #423223;
+}
+
+.salmon {
+    background: #FEAA7D;
+}
+
+.dsalmon {
+    background: #FF9865;
+}
+
+.green {
+    background: #364520;
+}
+
+.lgreen {
+    background: #385A24;
+}
+
+.sgreen {
+    background: #69962F;
+}
+
+
+.white {
+    background: #FDECCF;
+}
+
+.dbrown {
+    background-color: #732F0A;
+}
+
+.dbrown2 {
+    background: #85360D;
+}
+
+.gold {
+    background: #FECB3A;
+}
+
+.nbrown {
+    background: #774626;
+}
+
+.nbrown2 {
+    background: #975F2D;
+}
