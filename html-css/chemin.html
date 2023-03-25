@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chemin relatif & absolu</title>
+  </head>
+
+  <body>
+    <h1>Sur le web</h1>
+    <h3>Chemin relatif</h3>
+
+    <pre>dossier/page.html</pre>
+    <p>La cible (page.html) va être cherchée par le navigateur à partir de la page html ou de la feuille de style qu'il interprète.</p>
+
+    <pre>./dossier/page.html</pre>
+    <p>./ : signifie que la page est cherchée à partir du répertoire courant.</p>
+
+    <pre>../dossier/page.html</pre>
+    <p>../ : signifie que la page est cherchée à partir du répertoire parent \(on remonte d'un niveau\).</p>
+    <p>Il est tout à fait possible de remonter plusieurs répertoires. Pour cela il faudra cumuler les ../et ainsi pour remonter de deux niveaux, il sera possible d'écrire ../../dossier/page.html.</p>
+
+    <h3>Chemin absolu</h3>
+
+    <pre>/dossier/page.html</pre>
+    <p>Le slash initial précise que l'on ne se réfère plus à l'emplacement courant mais que l'on remonte directement à la racine pour ensuite préciser le chemin complet.
+
+    Dans bien des cas, le chemin absolu est la convention d'écriture la plus sûre, mais aussi la moins souple si l'arborescence est amenée à changer. La page cible sera cherchée par le navigateur à partir de la racine du site.
+
+    Dans notre exemple, le fichier page.html sera recherché directement à partir de la racine du domaine : http://www.mondomaine.fr/dossier/page.html.</p>
+
+    <h1>En langage côté serveur (PHP, Ruby, Python...)</h1>
+
+    <h3>Chemin relatif</h3>
+    <pre>
+      dossier/page.php
+      ./dossier/page.php
+      ../dossier/page.php
+    </pre>
+
+    <p>La cible (page.php) va être cherchée à partir du fichier exécuté.</p>
+
+    <h3>Chemin absolu</h3>
+    <pre>/dossier/page.php</pre>
+
+    <p>
+      La cible va être cherchée en partant de la racine du système de fichiers qui est représentée par le slash initial : /.
+
+      Par exemple sous Windows :
+      include('/inc/menu.php');
+      équivaudrait à
+      C:>inc\menu.php
+      et non pas à
+      http://www.domaine.fr/inc/menu.php
+      qui n'est au fond qu'une vue "virtuelle" du répertoire qui héberge le site, et qui peut être placée n'importe où dans l'arborescence du système de stockage.
+
+      Pour obtenir la racine du serveur web, utilisez la variable PHP
+      $_SERVER['DOCUMENT_ROOT']
+    </p>
+
+    <p><a href="http://www.php-astux.info/chemins-relatif-absolu.php">Pour aller plus loin :http://www.php-astux.info/chemins-relatif-absolu.php</a></p>
+  </body>
+</html>
