@@ -1,0 +1,47 @@
+header {
+  background: gold;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+nav {
+  background: lightskyblue;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+}
+section {
+  background: lightblue;
+  float: top left;
+  height: 750px;
+  width: 80%;
+}
+.pink {
+  background: pink;
+  float: top right;
+  height: 700px;
+  width: 100%;
+}
+
+/*.blue {
+  background: lightblue;
+  float: top left;
+  height: 750px;
+  width: 80%;
+}*/
+
+footer {
+  background: gold;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}

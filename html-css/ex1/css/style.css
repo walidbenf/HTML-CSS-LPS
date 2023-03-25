@@ -1,0 +1,54 @@
+body {
+    font-family: 'Indy flower', cursive;
+    background: url(https://cdn.pixabay.com/photo/2016/06/18/17/42/image-1465348_960_720.jpg) center no-repeat/cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div {
+    width: 80%;
+    opacity: .6;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* Ou bien */
+    background: rgb(240, 99, 99);
+}
+
+section {
+    width: 90%;
+    margin: 5% 0 0 5%;
+    padding: 2%;
+}
+
+.section-1 {
+    background: rgb(108, 218, 80);
+}
+
+.section-2 {
+    background: rgb(99, 160, 240);
+}
+
+.section-3 {
+    background: rgb(219, 233, 27);
+}
+
+.section-4 {
+    background: rgb(240, 110, 35);
+}
+
+.section-5 {
+    background: rgb(99, 160, 240);
+}

@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: yellow;
+  color: white;
+  height: 90px;
+}
+nav {
+  background: blue;
+  height: 60px;
+  color: #fff;
+}
+.aa {
+  back-ground-color: cyan;
+}
+.aaa {
+  height: 430px;
+  background-color: #ccc;
+}
+article {
+  width: 80%;
+  margin-top: -45.2%;
+  margin: 0 auto;
+  height: 844px;
+  background-color: pink;
+}

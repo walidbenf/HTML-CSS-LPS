@@ -1,0 +1,32 @@
+header {
+  background: gold;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  height: 100px;
+  width: 2000px;
+}
+nav {
+  background: lightblue;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  width: 2000px;
+  height: 80px;
+}
+section {
+  background: #fff;
+  height: 670px;
+  width: 670px;
+}
+footer {
+  background: gold;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  height: 80px;
+  width: 2000px;
+}
