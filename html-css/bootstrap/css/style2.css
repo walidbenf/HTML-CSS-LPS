@@ -1,0 +1,45 @@
+.col-md-12 {
+  border:1px solid black;
+  text-align:center;
+  height: 100px;
+}
+.col-md{
+  height:25px;
+  border:1px solid black;
+  text-align:center;
+}
+.col2 {
+  height:50px;
+  border:1px solid black;
+  text-align:center;
+}
+.col3 {
+  height:200px;
+  color:red;
+  font-weight: bold;
+  font-size:30px;
+}
+.col4 {
+  height:160px;
+  border:1px solid black;
+  text-align:center;
+}
+.col5 {
+  height:40px;
+  width:190px;
+  position:absolute;
+  right:30.2%;
+  top:39.7%;
+}
+.col6 {
+  height:40px;
+  width:190px;
+  position:absolute;
+  right:20.3%;
+  top:39.7%;
+}
+.col7 {
+  height:25px;
+  border:1px solid black;
+  text-align:center;
+}

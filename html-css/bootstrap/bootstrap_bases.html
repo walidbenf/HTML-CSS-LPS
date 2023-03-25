@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap - Bases</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a href="#" class="navbar-brand">Bootstrap 4</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">A propos</a></li>
+          <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">Boutique</a>
+
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Thé</a>
+            <a href="#" class="dropdown-item">Café</a>
+            <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Viennoiserie</a>
+            </div>
+            </li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+      <!-- Jumbotron ou mise en avant ou bannière de présentation -->
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+
+      <!-- section pour 3 colonnes -->
+      <!-- Par défaut la classe ".col" de bootstrap génére des colonnes de même longueur. Pour définir la longueur d'une colonne on ajoute le nombre de colonnes que l'on souhaite sachant que bootstrap limite les colonnes à 12. On peut également définir le nombre de colonnes selon la largeur de la fenêtre avec les classes "col-sm" "col-md" "col-lg" exemple "col-sm-5", "col-lg-12" etc... -->
+      <div class="row">
+        <!--On peut gérer les marges avec bootstrap via les classes "m" pour les margins et "p" pour les paddings après ce "m" ou "p" on peut préciser la marge que l'ont souhaite modifier en ajoutant "t(top)", "b(bottom)","l(left)", "r(right)","x(droite et gauche)", "y(haut et bas)" et rien pour les 4 côtés et après un tiret on indique la taille de la marge avec une valeur entre 0 et 5(5 étant la plus large)-->
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
+          <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="http://lorempixel.com/output/nature-q-c-286-180-10.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="http://lorempixel.com/output/nature-q-c-286-180-10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="http://lorempixel.com/output/nature-q-c-286-180-10.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de section 3 colonnes-->
+
+      <!-- Section de blocs de navigation secondaires latéraux(droite)-->
+      <div class="row mt-sm-4 mt-md-4">
+        <div class="col-sm-12 col-md-8">
+          <h3>Un titre important</h3>
+          <p class="lead">On peut ajouter un sous-titre, qui est plus large mais en gris en utilisant la classe "lead" de bootstrap</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolor rerum rem cum enim voluptatum autem earum aut ad in? Officia aspernatur, nemo est ipsum amet soluta omnis alias deserunt.</p>
+          <p>Possimus magnam vero quas facere explicabo, ipsam unde eligendi velit in assumenda saepe adipisci maxime, aliquam fugit officia eaque ut corporis molestiae numquam quae. Minus vitae culpa adipisci, dolorum temporibus.</p>
+        </div>
+
+      <div class="col-sm-12 col-md-4">
+          <h3 class="mb-4">Menu Secondaire</h3>
+          <ul class="nav flex-column nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Lien</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Lien</a></li>
+            <li class="nav-item"><a href="#" class="nav-link disabled">Désactivé</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
