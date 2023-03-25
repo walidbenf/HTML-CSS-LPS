@@ -1,0 +1,186 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#contenu {
+    border: 2px solid black;
+}
+
+header,
+footer {
+    padding-top: 6px;
+    background-color: #8E3557;
+    height:80px;
+}
+nav {
+  background:#046380;
+  height:100%;
+}
+ul {
+  list-style:none;
+  text-align: center;
+}
+ul li {
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+}
+
+section {
+    height: 1000px;
+    text-align: center;
+    background: white;
+}
+
+.a , .b, .c, .d {
+  margin-left:10px;
+  width: 92%;
+  height: 25%;
+}
+.a {
+    background:#B4AF91;
+}
+
+.b {
+    background: #0059A7;
+}
+
+.c {
+    background: #F6E497;
+}
+.d {
+    background:#B5E655;
+}
+@media screen and (min-width: 600px){
+  header , footer {
+    background:#0000FF;;
+  }
+  nav {
+  background:#FF0000;
+}
+  .a , .b, .c, .d {
+    margin:6px;
+    width: 46%;
+    height: 46%;
+  }
+.a {
+      background:#FFA500;
+      float: left;
+}
+
+.b {
+    background: #008000;
+    float: right;
+}
+
+.c {
+    background: #FFFF00;
+      float: left;
+}
+.d {
+      background:#FFC0CB;
+    float: right;
+}
+}
+@media screen and (min-width: 900px){
+  header , footer {
+    background: #8E3557;;
+  }
+  nav {
+  background:#046380;
+}
+  .a , .b, .c, .d {
+    margin:6px;
+    width: 48%;
+    height: 48%;
+  }
+.a {
+      background:#B4AF91;
+      float: left;
+}
+
+.b {
+    background: #0059A7;
+    float: right;
+}
+
+.c {
+    background: #F6E497;
+      float: left;
+}
+.d {
+      background:#B5E655;
+    float: right;
+}
+}
+@media screen and (min-width: 1200px){
+  header , footer{
+    background: #96CA2D;
+  }
+  nav {
+  background: #FF358B;
+}
+  .a , .b, .c, .d {
+    margin:6px;
+    width: 48%;
+    height: 48%;
+  }
+.a {
+    background-image:url(../img/lion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.b {
+    background: #79F4AE;
+    float: right;
+}
+
+.c {
+    background: #A4408D;
+      float: left;
+}
+.d {
+    background:#F479D8;
+    float: right;
+}
+}
+@media screen and (min-width: 1600px){
+header , footer {
+  background: #8E3557;
+}
+  nav {
+    background:#4A1A2C;
+    height:100%;
+  }
+  .a , .b, .c, .d {
+    margin:8px;
+    width: 48%;
+    height: 48%;
+  }
+.a {
+    background:linear-gradient(to right,#6547A3,#53749D,#429F98);
+    float: left;
+}
+
+.b {
+    background: #73ADCE;
+    float: right;
+}
+
+.c {
+    background: #73ADCE;
+    float: left;
+}
+.d {
+    background:linear-gradient( to left,#6547A3,#53749D,#429F98);
+    float: right;
+}
+}

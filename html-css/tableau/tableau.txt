@@ -1,0 +1,3 @@
+Créer un tableau nommé "Formation Pierrefitte".
+Créer des colonnes "Nom", "Prénom", "Sexe", "Plat favori".
+Créer 11 rangées.

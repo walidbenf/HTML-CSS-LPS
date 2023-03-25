@@ -1,0 +1,39 @@
+body {
+  background: lightblue;
+}
+label {
+  color: blue;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 0 15px 40px;
+}
+fieldset {
+  background: white;
+  width: 40%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 20px;
+  border-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+legend {
+  color: blue;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background: white;
+  border-radius: 30px;
+}
+input[type="submit"] {
+  background: white;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="submit"]:hover {
+  background: lightblue;
+}
+input:focus {
+  border: 5px double lightblue;
+}

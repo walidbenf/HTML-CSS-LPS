@@ -1,0 +1,149 @@
+body {
+    width: 57%;
+    margin: 10px auto;
+    height: 1000px;
+}
+
+#contenu {
+    background: red;
+    border: 2px solid black;
+}
+
+header {
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #D2B48C;
+}
+
+footer {
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #C0C0C0;
+}
+
+nav {
+    heigt: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+    background: #2F4F4F;
+    text-align: center;
+}
+
+section {
+    opacity: 1;
+    color: white;
+    height: 500px;
+    text-align: center;
+    border: 20px solid #AFEEEE;
+    background: white;
+}
+
+p {
+    margin: 0;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p {
+    width: 24.5%;
+    height: 24.5%;
+    margin: 2px;
+}
+
+.a {
+    background: #FFDAB9;
+    float: left;
+}
+
+.b {
+    background: #FFDAB9;
+    float: left;
+}
+
+.c {
+    background: #7A9EB1;
+    float: left;
+}
+
+.d {
+    background: #7A9EB1;
+    float: left;
+}
+
+.e {
+    background: #FFDAB9;
+    float: left;
+}
+
+.f {
+    background: #FFDAB9;
+    float: left;
+}
+
+.g {
+    background: #7A9EB1;
+    float: left;
+}
+
+.h {
+    background: #7A9EB1;
+    float: left;
+}
+
+.i {
+    background: #415865;
+    float: left;
+}
+
+.j {
+    background: #415865;
+    float: left;
+}
+
+.k {
+    background: #FFE1B3;
+    float: left;
+}
+
+.l {
+    background: #FFE1B3;
+    float: left;
+}
+
+.m {
+    background: #415865;
+    float: left;
+}
+
+.n {
+    background: #415865;
+    float: left;
+}
+
+.o {
+    background: #FFE1B3;
+    float: left;
+}
+
+.p {
+    background: #FFE1B3;
+    float: left;
+}

@@ -1,0 +1,185 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 0.3vh solid #000;/* vh est une valeur  proportionnel tous comme les pourcentage. vh = view height */
+}
+
+header {
+  height: 6vh;
+  background: blue;
+  padding: 1vh;
+}
+
+nav {
+  height: 3vh;
+  background: red;
+  text-align: center;
+  font-size: 2vw;/* vw est une valeur  proportionnel tous comme les pourcentage. vw = view width */
+  color: #fff;
+}
+
+nav a:hover {
+  background: #73CEC8;
+  text-decoration: none;
+  padding: 0.5% 0.8%;
+}
+
+section {
+  margin: 1.5vh;
+}
+
+.clear {
+  clear: both;
+}
+
+.c1, .c2, .c3, .c4 {
+  height: 20vh;
+  width: 38%;
+  padding: 5%;
+  margin: 1%;
+  float: left;
+}
+
+.c1{
+  background: orange;
+}
+.c2{
+  background: green;
+}
+.c3{
+  background: yellow;
+}
+.c4{
+  background: pink;
+}
+
+footer {
+  height: 6vh;
+  background: blue;
+}
+
+@media (max-width: 500px){
+  header {
+    height: 6vh;
+    background: #8E3557;
+  }
+  nav{
+    height: 3vh;
+    background: #046380;
+  }
+  .c1, .c2, .c3, .c4 {
+    height: 20vh;
+    width: 86%;
+    margin: 0 auto;
+  }
+  .c1{
+    background: #B4AF91;
+  }
+  .c2{
+    background: #046380;
+  }
+  .c3{
+    background: #F6E497;
+  }
+  .c1{
+    background: #B5E655;
+  }
+  footer{
+    height: 6vh;
+    background: #8E3557;
+  }
+}
+
+@media (min-width: 768px){
+  header{
+    height: 7vh;
+    background: #8E3557;
+  }
+  nav{
+    height: 3.5vh;
+    background: #046380;
+  }
+  .c1, .c2, .c3, .c4{
+    height: 20vh;
+    float: left;
+  }
+  .c1{
+    background: #B4AF91;
+  }
+  .c2{
+    background-color: #046380;
+  }
+  .c3{
+    background: #F6E497;
+  }
+  .c4{
+    background: #B5E655;
+  }
+  footer{
+    height: 7vh;
+    background: #8E3557;
+  }
+}
+
+@media (min-width: 992px){
+  header{
+    height: 8vh;
+    background: #96CA2D;
+  }
+  nav{
+    height: 4vh;
+    background: #FF358B;
+  }
+  .c1, .c2, .c3, .c4{
+    height: 30vh;
+    float: left;
+  }
+  .c1{
+    background: url(../img/lion.jpg);
+    background-size: cover;
+  }
+  .c2{
+    background: #79F4AE;
+  }
+  .c3{
+    background: #A4408D;
+  }
+  .c4{
+    background: #F479D8;
+  }
+  footer{
+    height: 8vh;
+    background: #96CA2D;
+  }
+}
+
+@media (min-width: 1200px){
+  header{
+    height: 9vh;
+    background: #8E3557;
+  }
+  nav{
+    height: 4.5vh;
+    background: #4A1A2C;
+  }
+  .c1, .c2, .c3, .c4{
+    height: 40vh;
+    float: left;
+  }
+  .c1{
+    background: linear-gradient(to left, #40A497, #6840A4);
+  }
+  .c2{
+    background: #73ADCE;
+  }
+  .c3{
+    background: #8CD0E9;;
+  }
+  .c4{
+    background: linear-gradient(to left, #40A497, #6840A4);
+  }
+  footer{
+    height: 9vh;
+    background: #8E3557;
+  }
+}

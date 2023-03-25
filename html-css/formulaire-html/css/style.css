@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  background: #c7eef3d7;
+}
+/*fieldset {
+
+}*/
+fieldset:hover {
+  box-shadow: 0 0 20px #444;
+}
+.green label {
+  color: #fff;
+  width: 200px;
+  display: inline-block;
+  padding: 10px 0 15px 40px;
+}
+.green input {
+  width: 300px;
+  height: 20px;
+}
+.green {
+  background: rgba(168, 197, 36, 0.6);
+  padding: 10px;
+  margin: 20px 0;
+}
+.blue label {
+  color: white;
+  width: 100px;
+  display: inline-block;
+  padding: 5px 0 15px 10px;
+}
+.blue input {
+  width: 10px;
+  height: 20px;
+}
+.blue {
+  background: rgba(36, 168, 197, 0.6);
+  padding: 10px;
+  margin: 20px 0;
+}
+.purple input {
+  width: 300px;
+  height: 20px;
+}
+.purple label {
+  color: white;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 0 10px 40px;
+}
+.purple {
+  background: rgba(230, 86, 235, 0.6);
+  padding: 10px;
+  margin: 20px 0;
+}
+legend {
+  color: #444;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: white;
+  padding: 5px;
+}
+input[type="submit"] {
+  width: 15%;
+  color: #fff;
+  background: #fe6921;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+input[type="submit"]:hover {
+  background: #e8ab2e;
+}
+input:focus {
+  border: 5px solid red;
+}
+select:focus {
+  border: 5px solid red;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 30px;
+}

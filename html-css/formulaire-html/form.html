@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+    <form>
+        <fieldset class="name">
+            <legend>Nom et prénom</legend>
+            <label for "name">Nom:</label>
+            <input type="text" name="name" id="name" autofocus required>
+            <br>
+            <label for "name">Prénom:</label>
+            <input type="text" name="name" id="name" autofocus required>
+            <br>
+        </fieldset>
+
+        <fieldset class="account">
+            <legend>Compte</legend>
+            <label for "name">Pseudo:</label>
+            <input type="text" name="name" id="name" autofocus required>
+            <br>
+            <label for "password">Mot de passe:</label>
+            <input type="password" name="password" id="password" autofocus required>
+            <br>
+            <label for"email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+        </fieldset>
+
+        <fieldset class="born">
+            <legend>Date et heure de naissance</legend>
+            <label for="hour">Date de naissance:</label>
+            <input type="datetime-local" name="hour" id="hour" required>
+        </fieldset>
+        <fieldset class="info">
+            <legend>Informations complémentaires</legend>
+            <label for="radio">Homme:</label>
+            <input type="radio" name="radio" id="radio" value="homme" checked>
+            <label for="radio">Femme:</label>
+            <input type="radio" name="radio" id="radio" value="femme">
+            <br>
+            <label for="select">Pays:</label>
+            <select name="select" id="select">
+                <option>Selectionner un pays</option>
+                <optgroup label="Europe">
+                    <option value="France" selected>France</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="Belgique">Belgique</option>
+                </optgroup>
+
+                <optgroup label="Afrique">
+                    <option value="Mauritanie">Mauritanie</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Gabon">Gabon</option>
+                </optgroup>
+            </select>
+            <br>
+
+            <label for="adress">Adresse:</label>
+            <input type="text" name="adress" id="adress" autofocus required>
+            <br>
+            <label for="file">Image:</label>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <label for="Envoyer"></label>
+        <input type="submit" value="Envoyer" name="Envoyer" id="Envoyer">
+        <br>
+    </form>
+</body>
+
+</html>

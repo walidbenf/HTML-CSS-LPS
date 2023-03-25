@@ -1,0 +1,100 @@
+.titre {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+}
+
+.texte {
+  text-align: center;
+  color: gray;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.celeb {
+  color: gray;
+  opacity: 1;
+  font-size: 16px;
+  text-align: center;
+}
+
+body {
+  background: lightblue;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+
+nav li :hover {
+  background-color: #3388bb;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+label {
+  color: gray;
+  opacity: 1;
+  font-size: 16px;
+  width: 60px;
+  display: inline-block;
+  padding: 10px 0 15px 600px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin: 20px 700px;
+}
+
+legend {
+  color: gray;
+  opacity: 1;
+  font-size: 16px;
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  border: gray;
+  border-style: dotted;
+}
+
+td {
+  padding: 5px;
+  font-size: 100%;
+  text-align: center;
+  border: 2px solid gray;
+  background: #e6e6fa;
+}
+
+table {
+  width: 20%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background: lightcoral;
+}
+
+th {
+  border: 2px solid gray;
+}

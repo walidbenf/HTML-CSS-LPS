@@ -1,0 +1,25 @@
+h1{
+  background:red;
+  margin:auto;
+  padding: auto;
+  width:50%;
+  text-align: center;
+  color:black;
+}
+
+.ball2{
+  background:blue;
+  margin:auto;
+  padding: auto;
+  width:50%;
+  text-align: center;
+  color:white;
+  transition: all 2s ease-in-out;
+  transform: rotate(0deg) scale(1);
+}
+.ball2:hover,.ball2:active,.ball2:focus {
+  transition: all 2s ease-in-out;
+  transform: rotate(720deg) scale(2.5);
+  background: yellow;
+  color:black;
+}

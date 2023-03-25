@@ -1,0 +1,23 @@
+.test
+ {
+   color:white;
+   height:35px;
+   width:100%;
+   background:red;
+   text-align:center;
+ }
+    @media screen and (min-width: 500px){
+      .test {
+      background:blue;
+    }
+    }
+    @media screen and (min-width: 800px){
+      .test {
+      background:yellow;
+    }
+  }
+    @media screen and (min-width: 1200px){
+      .test {
+      background:green;
+    }
+}

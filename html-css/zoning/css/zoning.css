@@ -1,0 +1,38 @@
+body {
+    width: 80%;
+    margin: 10px auto;
+    font-family: cursive;
+}
+
+#contenu {
+    background: red;
+    border: 2px solid black;
+}
+
+header,
+footer {
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    background-color: #8e3557
+}
+
+nav {
+    heigt: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+    background: #4a1a2c;
+}
+
+section {
+    height: 500px;
+    text-align: center;
+    border: 20px solid #787746;
+    background: #e6e2af;
+}
+
+p {
+    margin: 0;
+}

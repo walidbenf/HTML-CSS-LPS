@@ -1,0 +1,38 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    width: 20%;
+    margin: auto;
+}
+
+thead {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    background: gray;
+    border: 2px solid black;
+}
+
+td {
+    background: lightblue;
+    padding: 4px;
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-size: 100%;
+    border: 2px solid gray;
+}
+
+caption {
+    background: lightblue;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: 2px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,26 @@
+* {
+  text-align: center;
+}
+
+ul {
+  padding-top: 100px;
+  list-style: none;
+}
+li {
+  color: blue;
+}
+b {
+  color: red;
+}
+body {
+  background: lightblue;
+}
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+b {
+  margin: 5px;
+}

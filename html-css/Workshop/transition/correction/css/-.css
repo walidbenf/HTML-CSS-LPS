@@ -1,0 +1,77 @@
+div, h1 {
+  -webkit-transition-property:all;
+  -moz-transition-property:all;
+  -ms-transition-property:all;
+  -o-transition-property:all;
+  transition-property:all;
+  -webkit-transition-duration:3s;
+  -moz-transition-duration:3s;
+  -ms-transition-duration:3s;
+  -o-transition-duration:3s;
+  transition-duration:3s;
+}
+
+h1 {
+  font-size:200%;
+  position:fixed;
+  width:10%;
+  top:0;
+  right:0;
+  text-align:center;
+  margin:1em;
+  padding:1em;
+  border-radius:2em;
+  background-position: 100% 0%;
+  background-size: 200% 200%;
+  background-image:-webkit-linear-gradient(45deg, #FFF 10%, #000 90%);
+  background-image:-moz-linear-gradient(45deg, #FFF 10%, #000 90%);
+  background-image:-ms-linear-gradient(45deg, #FFF 10%, #000 90%);
+  background-image:-o-linear-gradient(45deg, #FFF 10%, #000 90%);
+  background-image:linear-gradient(45deg, #FFF 10%, #000 90%);
+  color:#FFF;
+  text-shadow:0 0 0.1em #000;
+}
+
+h1:hover {
+  background-position: 0% 100%;
+  text-shadow:0 0 0.1em #FFF;
+  color:#000;
+}
+
+div {
+  padding:0.5em 1em;
+  font-size:150%;
+  background-position: 60% 20%,0% 100%;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 20% 20%,100% 300%;
+  background-color: #FF8;
+  text-shadow:0 0 0 #000;
+  background-image: -webkit-radial-gradient(50% 50%, circle, rgba(100%,0%,0%,1) 50%, rgba(100%,100%,0%,0) 60%),
+              -webkit-linear-gradient(top, #405, #FF0);
+  background-image: -moz-radial-gradient(50% 50%, circle, rgba(100%,0%,0%,1) 50%, rgba(100%,100%,0%,0) 60%),
+              -moz-linear-gradient(top, #405, #FF0);
+  background-image: -ms-radial-gradient(50% 50%, circle, rgba(100%,0%,0%,1) 50%, rgba(100%,100%,0%,0) 60%),
+              -ms-linear-gradient(top, #405, #FF0);
+  background-image: -o-radial-gradient(50% 50%, circle, rgba(100%,0%,0%,1) 50%, rgba(100%,100%,0%,0) 60%),
+              -o-linear-gradient(top, #405, #FF0);
+  background-image: radial-gradient(50% 50%, circle, rgba(100%,0%,0%,1) 50%, rgba(100%,100%,0%,0) 60%),
+              linear-gradient(top, #405, #FF0);
+}
+div:hover {
+  background-position: 40% 130%,0% 0%;
+  text-shadow:0 0 0.1em #FFC;
+}
+
+a {
+  color:#FF0;
+}
+a:visited {
+  color:#CCC;
+}
+a:hover {
+  color:#F80;
+}
+::selection {
+  color:red;
+  background-color:#FF0;
+}
