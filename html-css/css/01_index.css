@@ -1,0 +1,47 @@
+body {
+  background: url(https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg) no-repeat center/ 100% 100%;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  font-family: "Indie-Flower", cursive;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Josefin-Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+}
+
+p {
+  font-size: 16px;
+  color: blue;
+  opacity: 1;
+}
+
+/* br { 
+  display: block;
+ border-widh: 1px;
+ border-style: inset;
+ border-color: yellow;
+}*/
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style-position: inside;
+  color: darkblue;
+}
+
+a {
+  display: block;
+  text-align: center;
+}

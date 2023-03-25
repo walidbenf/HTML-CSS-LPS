@@ -1,0 +1,47 @@
+.contenu {
+  background: linear-gradient(
+    to left,
+    #40a497,
+    #6840a4
+  ); /* Crée un dégradé  linéaire */
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.contenu2 {
+  background: radial-gradient(circle at center, white, green);
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* Crée un dégradé circulaire */
+}
+.contenu3 {
+  background: repeating-linear-gradient(
+    to right,
+    green,
+    red,
+    blue,
+    green 200px
+  );
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.contenu4 {
+  background: repeating-radial-gradient(
+    circle at center,
+    black,
+    white,
+    black,
+    white 10px
+  );
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+/* 1.Pour un dégradé linéaire les directions possibles sont: to left, to right, to top, to bottom
+2. Pour un dégradé circulaire les directions possibles sont: circle at top, circle at center, closest-corner(vers le coin le plus proche), closest-side(vers le coin le plus éloigné), farthest-corner(vers le coin le plus éloigné),farthest-side(vers le côté le plus éloigné)*/
